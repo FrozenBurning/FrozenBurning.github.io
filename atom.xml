@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zhaoxi Chen</title>
+  <icon>https://frozenburning.github.io/icon.png</icon>
+  <subtitle>Creativity</subtitle>
+  <link href="https://frozenburning.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://frozenburning.github.io/"/>
+  <updated>2020-10-14T07:21:07.000Z</updated>
+  <id>https://frozenburning.github.io/</id>
+  
+  <author>
+    <name>Zhaoxi Chen</name>
+    <email>frozen.burning@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wild Array: Collaborative Multi-UAVs Intelligent System</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Project/wild-array/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Project/wild-array/</id>
+    <published>2021-01-04T15:50:54.390Z</published>
+    <updated>2020-10-14T07:21:07.000Z</updated>
+    
+    
+    
+    
+    <category term="Project" scheme="https://frozenburning.github.io/categories/Project/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Understanding Robustness in Teacher-Student Setting: A New Perspective</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Project/ts-adv/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Project/ts-adv/</id>
+    <published>2021-01-04T15:50:54.380Z</published>
+    <updated>2020-10-14T08:06:11.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This project is part of my work during the summer of 2020, as an intern at University of Illinois at Urbana-Champaign, advised by Prof. &lt;a href=&quot;https://aisecure.github.io/&quot;&gt;Bo Li&lt;/a&gt;, Dr. &lt;a href=&quot;https://lucas110550.github.io/about/&quot;&gt;Zhuolin Yang&lt;/a&gt; and Dr. &lt;a href=&quot;https://yuandong-tian.com/&quot;&gt;Yuandong Tian&lt;/a&gt; (&lt;a href=&quot;https://ai.facebook.com/&quot;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Project" scheme="https://frozenburning.github.io/categories/Project/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Modular Robot Configuration Functionality - From a Perspective of Graph Embeddings</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Project/smores/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Project/smores/</id>
+    <published>2021-01-04T15:50:54.370Z</published>
+    <updated>2020-10-14T06:50:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This project is my work during the summer of 2020, as an intern at ModLab, GRASP, University of Pennsylvania, supervised by Prof. &lt;a href=&quot;https://www.seas.upenn.edu/directory/profile.php?ID=107&quot;&gt;Mark Yim&lt;/a&gt; and Dr. &lt;a href=&quot;https://www.modlabupenn.org/people/chao-liu/&quot;&gt;Chao liu&lt;/a&gt;.&lt;br&gt;&lt;span id=&quot;smores-ep&quot;&gt;&lt;br&gt;&lt;img src=&quot;/files/smores/smores-ep.png&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Project" scheme="https://frozenburning.github.io/categories/Project/"/>
+    
+    
+    <category term="GNN" scheme="https://frozenburning.github.io/tags/GNN/"/>
+    
+    <category term="robot" scheme="https://frozenburning.github.io/tags/robot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Multi-Agent Deep Reinforcement Learning for Active 3D Human Pose Estimation</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Project/flyingcap/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Project/flyingcap/</id>
+    <published>2021-01-04T15:50:54.360Z</published>
+    <updated>2020-10-14T08:00:40.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This project is my work from Mar. 2020 to Oct. 2020, as a research assistant at Microsoft Research Asia, advised by Dr. &lt;a href=&quot;https://www.microsoft.com/en-us/research/people/yuwwan/&quot;&gt;Yuwang Wang&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Project" scheme="https://frozenburning.github.io/categories/Project/"/>
+    
+    
+    <category term="Reinforcement Learning" scheme="https://frozenburning.github.io/tags/Reinforcement-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Blog/hello-world/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Blog/hello-world/</id>
+    <published>2021-01-04T15:50:54.350Z</published>
+    <updated>2020-10-13T13:22:13.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blog" scheme="https://frozenburning.github.io/categories/Blog/"/>
+    
+    
+  </entry>
+  
+</feed>
