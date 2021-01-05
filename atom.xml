@@ -6,7 +6,7 @@
   <link href="https://frozenburning.github.io/atom.xml" rel="self"/>
   
   <link href="https://frozenburning.github.io/"/>
-  <updated>2020-10-14T07:21:07.000Z</updated>
+  <updated>2021-01-05T08:30:29.471Z</updated>
   <id>https://frozenburning.github.io/</id>
   
   <author>
@@ -17,12 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Wild Array: Collaborative Multi-UAVs Intelligent System</title>
-    <link href="https://frozenburning.github.io/2021/01/04/Project/wild-array/"/>
-    <id>https://frozenburning.github.io/2021/01/04/Project/wild-array/</id>
-    <published>2021-01-04T15:50:54.390Z</published>
-    <updated>2020-10-14T07:21:07.000Z</updated>
+    <title>On the Limitations of Denoising Strategies as Adversarial Defenses</title>
+    <link href="https://frozenburning.github.io/2021/01/05/Project/denoising/"/>
+    <id>https://frozenburning.github.io/2021/01/05/Project/denoising/</id>
+    <published>2021-01-05T08:18:38.131Z</published>
+    <updated>2021-01-05T08:30:29.471Z</updated>
     
+    
+    <summary type="html">&lt;p&gt;This project is part of part of my work during the winter of 2020, as an intern at University of Illinois at Urbana-Champaign, advised by Prof. &lt;a href=&quot;https://aisecure.github.io/&quot;&gt;Bo Li&lt;/a&gt; and Dr. Zhonghan Niu.&lt;/p&gt;</summary>
     
     
     
@@ -32,11 +34,36 @@
   </entry>
   
   <entry>
+    <title>Wild Array: Collaborative Multi-UAVs Intelligent System</title>
+    <link href="https://frozenburning.github.io/2021/01/04/Project/wild-array/"/>
+    <id>https://frozenburning.github.io/2021/01/04/Project/wild-array/</id>
+    <published>2021-01-04T15:50:54.390Z</published>
+    <updated>2021-01-05T16:01:55.744Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;This project is my work dfrom 2018 to 2020, as a research assistant at &lt;a href=&quot;http://media.au.tsinghua.edu.cn/english/index/index.html&quot;&gt;Broadband Network &amp;amp; Digital Media Lab&lt;/a&gt;, Tsinghua University, supervised by Prof. Yipeng Li, preparing for the amazing robotic grand challenge &lt;a href=&quot;https://www.mbzirc.com/challenge/2020&quot;&gt;MBZIRC 2020&lt;/a&gt; as the team leader of a group of nine at the same time.&lt;br&gt;&lt;span id=&quot;drone&quot;&gt;&lt;br&gt;&lt;img src=&quot;/files/throne/drone_overview.png&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Project" scheme="https://frozenburning.github.io/categories/Project/"/>
+    
+    
+    <category term="Reinforcement Learning" scheme="https://frozenburning.github.io/tags/Reinforcement-Learning/"/>
+    
+    <category term="robot" scheme="https://frozenburning.github.io/tags/robot/"/>
+    
+    <category term="Robotics" scheme="https://frozenburning.github.io/tags/Robotics/"/>
+    
+    <category term="SLAM" scheme="https://frozenburning.github.io/tags/SLAM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Understanding Robustness in Teacher-Student Setting: A New Perspective</title>
     <link href="https://frozenburning.github.io/2021/01/04/Project/ts-adv/"/>
     <id>https://frozenburning.github.io/2021/01/04/Project/ts-adv/</id>
     <published>2021-01-04T15:50:54.380Z</published>
-    <updated>2020-10-14T08:06:11.000Z</updated>
+    <updated>2021-01-05T08:30:40.601Z</updated>
     
     
     <summary type="html">&lt;p&gt;This project is part of my work during the summer of 2020, as an intern at University of Illinois at Urbana-Champaign, advised by Prof. &lt;a href=&quot;https://aisecure.github.io/&quot;&gt;Bo Li&lt;/a&gt;, Dr. &lt;a href=&quot;https://lucas110550.github.io/about/&quot;&gt;Zhuolin Yang&lt;/a&gt; and Dr. &lt;a href=&quot;https://yuandong-tian.com/&quot;&gt;Yuandong Tian&lt;/a&gt; (&lt;a href=&quot;https://ai.facebook.com/&quot;&gt;FAIR&lt;/a&gt;).&lt;/p&gt;</summary>
