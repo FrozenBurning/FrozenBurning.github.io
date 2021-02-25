@@ -115,21 +115,4 @@
     
   </entry>
   
-  <entry>
-    <title>Hello World</title>
-    <link href="https://frozenburning.github.io/2021/01/04/Blog/hello-world/"/>
-    <id>https://frozenburning.github.io/2021/01/04/Blog/hello-world/</id>
-    <published>2021-01-04T15:50:54.350Z</published>
-    <updated>2020-10-13T13:22:13.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Blog" scheme="https://frozenburning.github.io/categories/Blog/"/>
-    
-    
-  </entry>
-  
 </feed>
