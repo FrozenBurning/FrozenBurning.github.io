@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Zhaoxi Chen</title>
+  
+  <meta name="author" content="Zhaoxi Chen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:67%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Zhaoxi Chen</name>
+              </p>
+              <p>I'm Zhaoxi Chen, a first-year Ph.D. student in the School of Computer Science and Engineering at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> (<a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>), supervised by Prof. <a href="https://liuziwei7.github.io/">Ziwei Liu</a>. Prior to it, I received my bachelor degree in the <a href="https://www.au.tsinghua.edu.cn/">Department of Automation</a> from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> in 2021.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:zhaoxi001@ntu.edu.sg">Email</a> &nbsp/&nbsp
+                <a href="data/CV-ZhaoxiChen.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/FrozenBurning/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:30%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/me.JPG" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+              <p>
+                I'm interested in computer vision and deep learning, especially in the field of neural rendering. <br>
+                <strong>*</strong> denotes equal contributions.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="relighting4d_stop()" onmouseover="relighting4d_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='relighting4d_video'><img src="images/relighting.gif" width="200"></div>
+                <img src='images/relighting.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function relighting4d_start() {
+                  document.getElementById('relighting4d_video').style.opacity = "1";
+                }
+
+                function relighting4d_stop() {
+                  document.getElementById('relighting4d_video').style.opacity = "0";
+                }
+                relighting4d_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+							<a href="">
+                <papertitle>Relighting4D: Neural Relightable Human from Videos</papertitle>
+              </a>
+              <br>
+              <strong>Zhaoxi Chen</strong>,
+              <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
+              <br>
+              <em>ECCV</em>, 2022
+              <br>
+              [<a href="projects/relighting4d">Project Page</a>]
+							[<a href="">Paper</a>]
+							[<a href="https://github.com/FrozenBurning/Relighting4D">Code</a>]
+              <p></p>
+              <p>Relighting4D takes only videos as input, decomposing them into geometry and reflectance in a self-supervised manner, which enables relighting of dynamic humans with free viewpoints by a physically based renderer.</p>
+            </td>
+          </tr>
+          <tr onmouseout="adafocus_stop()" onmouseover="adafocus_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='adafocus_video'><img src="images/adafocus.gif" width="200"></div>
+                <img src='images/adafocus.png' width="200">
+              </div>
+              <script type="text/javascript">
+                function adafocus_start() {
+                  document.getElementById('adafocus_video').style.opacity = "1";
+                }
+
+                function adafocus_stop() {
+                  document.getElementById('adafocus_video').style.opacity = "0";
+                }
+                adafocus_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+							<a href="https://github.com/blackfeather-wang/AdaFocus">
+                <papertitle>Adaptive Focus for Efficient Video Recognition</papertitle>
+              </a>
+              <br>
+              <a href="https://www.rainforest-wang.cool/">Yulin Wang<strong>*</strong></a>,
+              <strong>Zhaoxi Chen*</strong>,
+              <a href="https://github.com/jianghaojun">Haojun Jiang</a>,
+              <a href="https://scholar.google.com/citations?user=rw6vWdcAAAAJ&hl=en">Shiji Song</a>,
+              <a href="https://yizenghan.top/">Yizeng Han</a>,
+              <a href="http://www.gaohuang.net/">Gao Huang</a>
+              <br>
+              <em>ICCV</em>, 2021 &nbsp <font color="#ff6a5c"><strong>(Oral Presentation)</strong></font>
+              <br>
+							[<a href="https://arxiv.org/abs/2105.03245">Paper</a>]
+							[<a href="https://github.com/blackfeather-wang/AdaFocus">Code</a>]
+              <p></p>
+              <p>In this paper, we explore the spatial redundancy in video recognition with the aim to improve the computational efficiency. Extensive experiments on five benchmark datasets, i.e., ActivityNet, FCVID, Mini-Kinetics, Something-Something V1&V2, demonstrate that our method is significantly more efficient than the competitive baselines.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/ts-adv.jpg" alt="understanding" width="200" style="border-style: none">
+              </div>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2102.13170">
+                <papertitle>Understanding Robustness in Teacher-Student Setting: A New Perspective</papertitle>
+              </a>
+              <br>
+              <a href="https://lucas110550.github.io/about/">Zhuolin Yang<strong>*</strong></a>,
+              <strong>Zhaoxi Chen</strong>,
+              Tiffany Cai,
+              <a href="https://jungyhuk.github.io/">Xinyun Chen</a>,
+              <a href="https://aisecure.github.io/">Bo Li</a>,
+              <a href="https://yuandong-tian.com/">Yuandong Tian<strong>*</strong></a>
+              <br>
+              <em>AISTATS</em>, 2021
+              <br>
+              [<a href="https://arxiv.org/abs/2102.13170">Paper</a>]
+              <p>In the case of low-rank input data, we show that student specialization still happens within the input subspace, but the teacher and student nodes could differ wildly out of the data subspace, which we conjecture leads to adversarial examples.</p>
+            </td>
+          </tr>
+        </tbody></table>
+        
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Academic Experience</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+					
+          <tr>
+            <td width="75%">
+              <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, Nanyang Technological University <br>
+              Ph.D. student supervised by Prof. <a href="https://liuziwei7.github.io">Ziwei Liu</a>
+            </td>
+            <td width="25%">Aug. 2021 - Now</td>
+          </tr>
+          <tr>
+            <td width="75%">
+              <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, Tsinghua University <br>
+              Undergraduate thesis supervised by Prof. <a href="http://www.gaohuang.net/">Gao Huang</a>
+            </td>
+            <td width="25%">Dec. 2020 - Jul. 2021</td>
+          </tr>
+          <tr>
+            <td width="75%">
+              <a href="https://aisecure.github.io/">Secure Learning Lab</a>, University of Illinois at Urbana-Champaign <br>
+              Visiting research intern advised by Prof. <a href="https://aisecure.github.io/">Bo Li</a>
+            </td>
+            <td width="25%">May. 2020 - Oct. 2020</td>
+          </tr>
+          <tr>
+            <td width="75%">
+              <a href="https://www.modlabupenn.org/">GRASP</a>, University of Pennsylvania <br>
+              Intern advised by Prof. <a href="https://www.seas.upenn.edu/directory/profile.php?ID=107">Mark Yim</a>
+            </td>
+            <td width="25%">Jun. 2020 - Sep. 2020</td>
+          </tr>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Misc</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td width="100%">I'm a fanatical music lover, with skills on saxophone, piano and guitar.</td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <td style="text-align: right;"> Website template credits to <a href="http://jonbarron.info">Jon Barron</a>. </td>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
