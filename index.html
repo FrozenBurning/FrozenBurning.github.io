@@ -44,6 +44,41 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="text2light_stop()" onmouseover="text2light_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='text2light_video'><img src="images/text2light.gif" width="200"></div>
+                <img src='images/text2light.jpg' width="200">
+              </div>
+              <script type="text/javascript">
+                function text2light_start() {
+                  document.getElementById('text2light_video').style.opacity = "1";
+                }
+
+                function text2light_stop() {
+                  document.getElementById('text2light_video').style.opacity = "0";
+                }
+                text2light_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+							<a href="projects/text2light/">
+                <papertitle>Text2Light: Zero-Shot Text-Driven HDR Panorama Generation</papertitle>
+              </a>
+              <br>
+              <strong>Zhaoxi Chen</strong>,
+              <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
+              <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
+              <br>
+              <em>TOG</em>, 2022 (Proc. SIGGRAPH Asia)
+              <br>
+              [<a href="projects/text2light/">Project Page</a>]
+							[<a href="https://arxiv.org/abs/2207.07104">Paper</a>]
+							[<a href="https://github.com/FrozenBurning/Text2Light">Code</a>]
+              <p></p>
+              <p>Text2Light can generate HDR panoramas in 4K+ resolution using free-form texts, without training on text-image pairs. The high-quality generated HDR panoramas can be directly applied to downstream tasks, e.g., light 3D scenes and immersive virtual reality.</p>
+            </td>
+          </tr>
           <tr onmouseout="relighting4d_stop()" onmouseover="relighting4d_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
