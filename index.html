@@ -5,139 +5,254 @@
   <meta name="author" content="Zhaoxi Chen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheet.css"> -->
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Namari Color CSS -->
+  <link rel="stylesheet" href="css/namari-color.css">
+  <!--Icon Fonts - Font Awesome Icons-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Animate CSS-->
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+  <!--Google Webfonts-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:67%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Zhaoxi Chen</name>
-              </p>
-              <p>I'm Zhaoxi Chen, a second-year Ph.D. student in the School of Computer Science and Engineering at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> (<a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>), supervised by Prof. <a href="https://liuziwei7.github.io/">Ziwei Liu</a>. Prior to it, I received my bachelor degree in the <a href="https://www.au.tsinghua.edu.cn/">Department of Automation</a> from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> in 2021.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:zhaoxi001@ntu.edu.sg">Email</a> &nbsp/&nbsp
-                <a href="./data/resume.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/FrozenBurning/">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:30%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/me.JPG" class="hoverZoomLink">
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
-              <p>
-                [07/2023] Two papers accepted to <a href="https://iccv2023.thecvf.com/">ICCV 2023</a>.
-              </p>
-              <p>
-                [04/2023] Selected as a Finalist of <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">2023 Meta Research PhD Fellowship</a>!
-              </p>
-              <p>
-                [02/2023] One paper accepted to <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a> as <font color="#ff6a5c"><strong>Highlight</strong></font>.
-              </p>
-              <p>
-                [01/2023] One paper accepted to <a href="https://iclr.cc/Conferences/2023">ICLR 2023</a> as <font color="#ff6a5c"><strong>Spotlight</strong></font>.
-              </p>
-              <p>
-                [08/2022] One paper accepted to <a href="https://dl.acm.org/journal/tog">TOG</a> (Proc. <a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia 2022</a>).
-              </p>
-              <p>
-                [07/2022] One paper accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.
-              </p>
-              <p>
-                [08/2021] Join <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>!
-              </p>
-              <p>
-                [07/2021] One paper accepted to <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a> for <font color="#ff6a5c"><strong>Oral</strong></font> presentation.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status" class="la-ball-triangle-path">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+</div>
+<!--End of Preloader-->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
-              <p>
-                I'm interested in computer vision and deep learning, especially in the field of neural rendering. <br>
-                <strong>*</strong> denotes equal contributions.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/scenedreamer_small.gif' width="200">
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+  <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+  <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+  <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+  <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+  <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+    <div id="header" class="nav-collapse">
+        <div class="row clearfix">
+            <div class="col-1">
+
+                <!--Logo-->
+                <div id="logo">
+
+                    <!--Logo that is shown on the banner-->
+                    <img src="images/thumbnail_me.jpg" id="banner-logo" alt="Landing Page"/>
+                    <!--End of Banner Logo-->
+
+                    <!--The Logo that is shown on the sticky Navigation Bar-->
+                    <img src="images/thumbnail_me.jpg" id="navigation-logo" alt="Landing Page"/>
+                    <!--End of Navigation Logo-->
+
+                </div>
+                <!--End of Logo-->
+
+                <aside>
+                    <!--Social Icons in Header-->
+                    <ul class="social-icons">
+                      <li>
+                        <a target="_blank" title="Email" href="mailto:zhaoxi001@ntu.edu.sg">
+                            <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+                        </a>
+                      </li>
+                      <li>
+                          <a target="_blank" title="Google+" href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">
+                              <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                          </a>
+                      </li>
+                      <li>
+                        <a target="_blank" title="Github" href="https://github.com/FrozenBurning/">
+                            <i class="fa fa-github fa-1x"></i><span>Github</span>
+                        </a>
+                      </li>
+                      <li>
+                          <a target="_blank" title="Twitter" href="https://twitter.com/Frozen_Burning">
+                              <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                          </a>
+                      </li>
+                    </ul>
+                    <!--End of Social Icons in Header-->
+
+                </aside>
+
+                <!--Main Navigation-->
+                <nav id="nav-main">
+                    <ul>
+                        <li>
+                            <a href="#banner">Home</a>
+                        </li>
+                        <li>
+                            <a href="#news">News</a>
+                        </li>
+                        <li>
+                            <a href="#publications">Publications</a>
+                        </li>
+                        <li>
+                            <a href="#experiences">Experiences</a>
+                        </li>
+                        <li>
+                            <a href="#awards">Awards</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--End of Main Navigation-->
+
+                <div id="nav-trigger"><span></span></div>
+                <nav id="nav-mobile"></nav>
+
+            </div>
+        </div>
+    </div><!--End of Header-->
+
+    <!--Banner Content-->
+    <div id="banner-content" class="row clearfix">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+            <div class="section-heading">
+                <h3>PhD Student, MMLab@NTU</h3>
+                <h1>Zhaoxi Chen</h1>
+                <h2>I'm Zhaoxi Chen, a second-year Ph.D. student in the School of Computer Science and Engineering at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a> (<a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>), supervised by Prof. <a href="https://liuziwei7.github.io/">Ziwei Liu</a>. Prior to it, I received my bachelor degree in the <a href="https://www.au.tsinghua.edu.cn/">Department of Automation</a> from <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> in 2021.</h2>
+            </div>
+
+            <!--Call to Action-->
+            <br>
+            <a href="mailto:zhaoxi001@ntu.edu.sg" class="button"><i class="fa fa-envelope"></i> Email </a>
+            <a href="./data/resume.pdf" class="button"><i class="fa fa-mail-forward"></i> CV </a>
+            <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en" class="button"><i class="fa fa-google-plus"></i> Google Scholar</a>
+            <a href="https://github.com/FrozenBurning/" class="button"><i class="fa fa-github"></i> Github</a>
+            <a href="https://twitter.com/Frozen_Burning" class="button"><i class="fa fa-twitter"></i> Twitter</a>
+            <!--End Call to Action-->
+        </div>
+    </div><!--End of Row-->
+  </header>
+
+  <main id="content">
+
+    <!-- News -->
+    <section id="news" class="introduction scrollto">
+      <div class="row clearfix">
+        <div class="col-3">
+          <div class="section-heading">
+              <h2 class="section-title">News</h2>
+              <!-- <p class="section-subtitle">Place holder for subtitle</p> -->
+          </div>
+        </div>
+        <div class="col-2-3">
+          <p>
+            [09/2023] One paper accepted to <a href="https://nips.cc/Conferences/2023">NeurIPS 2023</a>.
+          </p>
+          <p>
+            [09/2023] One paper accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE TPAMI</a>.
+          </p>
+          <p>
+            [07/2023] Two papers accepted to <a href="https://iccv2023.thecvf.com/">ICCV 2023</a>.
+          </p>
+          <p>
+            [04/2023] Selected as a Finalist of <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">2023 Meta Research PhD Fellowship</a>!
+          </p>
+          <p>
+            [02/2023] One paper accepted to <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a> as <font color="#ff6a5c"><strong>Highlight</strong></font>.
+          </p>
+          <p>
+            [01/2023] One paper accepted to <a href="https://iclr.cc/Conferences/2023">ICLR 2023</a> as <font color="#ff6a5c"><strong>Spotlight</strong></font>.
+          </p>
+          <p>
+            [08/2022] One paper accepted to <a href="https://dl.acm.org/journal/tog">TOG</a> (Proc. <a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia 2022</a>).
+          </p>
+          <p>
+            [07/2022] One paper accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.
+          </p>
+          <p>
+            [08/2021] Join <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>!
+          </p>
+          <p>
+            [07/2021] One paper accepted to <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a> for <font color="#ff6a5c"><strong>Oral</strong></font> presentation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="scrollto clearfix">
+      <div class="row clearfix">
+        <div class="col-1">
+          <div class="section-heading">
+              <h2 class="section-title">Publications</h2>
+              <p class="section-subtitle"><strong>*</strong> denotes equal contributions</p>
+          </div>
+
+          <!-- Paper by paper -->
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/scenedreamer_small.gif' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://scene-dreamer.github.io/">
-                <papertitle>SceneDreamer: Unbounded 3D Scene Generation from 2D Image Collections</papertitle>
+                <h4>SceneDreamer: Unbounded 3D Scene Generation from 2D Image Collections</h4>
               </a>
-              <br>
               <strong>Zhaoxi Chen</strong>,
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
               <br>
-              <em>arXiv</em>, 2023
-              <br>
-              [<a href="https://scene-dreamer.github.io/">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2302.01330">Paper</a>]
-							[<a href="https://youtu.be/nEfSKL2_FoA">Video</a>]
-							[<a href="https://github.com/FrozenBurning/SceneDreamer">Code</a>]
+              <em>TPAMI</em>, 2023
+              <br><br>
+              <a href="https://scene-dreamer.github.io/" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2302.01330" class="button">Paper</a>
+							<a href="https://youtu.be/nEfSKL2_FoA" class="button">Video</a>
+							<a href="https://github.com/FrozenBurning/SceneDreamer" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/FrozenBurning/SceneDreamer?style=social">
               <img src="https://img.shields.io/github/forks/FrozenBurning/SceneDreamer?style=social">
-              <p></p>
               <p>SceneDreamer learns to generate unbounded 3D scenes from in-the-wild 2D image collections. Our method can synthesize diverse landscapes across different styles, with 3D consistency, well-defined depth, and free camera trajectory.</p>
-            </td>
-          </tr>
+            </div>
+          </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/sparsenerf.gif' width="200">
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/sparsenerf.gif' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://sparsenerf.github.io/">
-                <papertitle>SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis</papertitle>
+                <h4>SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis</h4>
               </a>
-              <br>
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <strong>Zhaoxi Chen</strong>,
-              <a href="https://www.mmlab-ntu.com/person/ccloy/index.html">Chen Change Loy</a>
+              <a href="https://www.mmlab-ntu.com/person/ccloy/index.html">Chen Change Loy</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
               <br>
               <em>ICCV</em>, 2023
-              <br>
-              [<a href="https://sparsenerf.github.io/">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2303.16196">Paper</a>]
-							[<a href="https://youtu.be/V0yCTakA964">Video</a>]
-							[<a href="https://github.com/Wanggcong/SparseNeRF">Code</a>]
+              <br><br>
+              <a href="https://sparsenerf.github.io/" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2303.16196" class="button">Paper</a>
+							<a href="https://youtu.be/V0yCTakA964" class="button">Video</a>
+							<a href="https://github.com/Wanggcong/SparseNeRF" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/Wanggcong/SparseNeRF?style=social">
               <img src="https://img.shields.io/github/forks/Wanggcong/SparseNeRF?style=social">
-              <p></p>
               <p>SparseNeRF is a simple yet effective few-shot NeRF by distilling robust local depth ranking priors from real-world inaccurate depth observations.</p>
-            </td>
-          </tr>
+            </div>
+          </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/synbody.png' width="200">
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.2s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/synbody.png' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://maoxie.github.io/SynBody/#/">
-                <papertitle>SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling</papertitle>
+                <h4>SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling</h4>
               </a>
-              <br>
               <a href="https://github.com/Maoxie">Zhitao Yang<strong>*</strong></a>,
               <a href="https://caizhongang.github.io/">Zhongang Cai<strong>*</strong></a>,
               <a href="https://scholar.google.com/citations?user=TOZ9wR4AAAAJ&hl=en">Haiyi Mei<strong>*</strong></a>,
@@ -155,24 +270,22 @@
               <a href="http://yanglei.me/">Lei Yang</a>
               <br>
               <em>ICCV</em>, 2023
-              <br>
-              [<a href="https://maoxie.github.io/SynBody/#/">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2303.17368">Paper</a>]
-							[<a href="https://www.youtube.com/watch?v=ogXpRB9zR9A">Video</a>]
-              <p></p>
+              <br><br>
+              <a href="https://maoxie.github.io/SynBody/#/" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2303.17368" class="button">Paper</a>
+							<a href="https://www.youtube.com/watch?v=ogXpRB9zR9A" class="button">Video</a>
               <p>SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations. It supports various research topics, including 3D human perception, reconstruction and generation.</p>
-            </td>
-          </tr>
+            </div>
+          </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/f2nerf.png' width="200">
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/f2nerf.png' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://totoro97.github.io/projects/f2-nerf/">
-                <papertitle>F2-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories</papertitle>
+                <h4>F2-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories</h4>
               </a>
-              <br>
               <a href="https://nearlyemptystring.com/about">Peng Wang*</a>,
               <a href="https://liuyuan-pal.github.io/">Yuan Liu*</a>,
               <strong>Zhaoxi Chen</strong>,
@@ -183,26 +296,25 @@
               <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>
               <br>
               <em>CVPR</em>, 2023 &nbsp <font color="#ff6a5c"><strong>(Highlight)</strong></font>
-              <br>
-              [<a href="https://totoro97.github.io/projects/f2-nerf/">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2303.15951">Paper</a>]
-							[<a href="https://github.com/totoro97/f2-nerf">Code</a>]
+              <br><br>
+              <a href="https://totoro97.github.io/projects/f2-nerf/" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2303.15951" class="button">Paper</a>
+							<a href="https://github.com/totoro97/f2-nerf" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/totoro97/f2-nerf?style=social">
               <img src="https://img.shields.io/github/forks/totoro97/f2-nerf?style=social">
               <p></p>
               <p>F2-NeRF enables arbitrary input camera trajectories for novel view synthesis and only costs a few minutes for training.</p>
-            </td>
-          </tr>
+            </div>
+          </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src='images/eva3d.gif' width="200">
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/eva3d.gif' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://hongfz16.github.io/projects/EVA3D.html">
-                <papertitle>EVA3D: Compositional 3D Human Generation from 2D Image Collections</papertitle>
+                <h4>EVA3D: Compositional 3D Human Generation from 2D Image Collections</h4>
               </a>
-              <br>
               <a href="https://hongfz16.github.io/">Fangzhou Hong</a>,
               <strong>Zhaoxi Chen</strong>,
               <a href="https://github.com/NIRVANALAN">Yushi Lan</a>,
@@ -210,114 +322,78 @@
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
               <br>
               <em>ICLR</em>, 2023 &nbsp <font color="#ff6a5c"><strong>(Spotlight)</strong></font>
-              <br>
-              [<a href="https://hongfz16.github.io/projects/EVA3D.html">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2210.04888">Paper</a>]
-							[<a href="https://www.youtube.com/watch?v=JNV0FJ0aDWM">Video</a>]
-							[<a href="https://github.com/hongfz16/EVA3D">Code</a>]
+              <br><br>
+              <a href="https://hongfz16.github.io/projects/EVA3D.html" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2210.04888" class="button">Paper</a>
+							<a href="https://www.youtube.com/watch?v=JNV0FJ0aDWM" class="button">Video</a>
+							<a href="https://github.com/hongfz16/EVA3D" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/hongfz16/EVA3D?style=social">
               <img src="https://img.shields.io/github/forks/hongfz16/EVA3D?style=social">
               <p></p>
               <p>EVA3D is a high-quality unconditional 3D human generative model that only requires 2D image collections for training.</p>
-            </td>
-          </tr>
-          <tr onmouseout="text2light_stop()" onmouseover="text2light_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='text2light_video'><img src="images/text2light.gif" width="200"></div>
-                <img src='images/text2light.jpg' width="200">
-              </div>
-              <script type="text/javascript">
-                function text2light_start() {
-                  document.getElementById('text2light_video').style.opacity = "1";
-                }
+            </div>
+          </div>
 
-                function text2light_stop() {
-                  document.getElementById('text2light_video').style.opacity = "0";
-                }
-                text2light_stop()
-              </script>
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
+            <a class="col-4" style="margin: auto;">
+              <img src="images/text2light.jpg" alt="text2light">
+              <div class="img-overlay"><img src="images/text2light.gif" alt="text2light_gif"></div>
+            </a>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="projects/text2light/">
-                <papertitle>Text2Light: Zero-Shot Text-Driven HDR Panorama Generation</papertitle>
+                <h4>Text2Light: Zero-Shot Text-Driven HDR Panorama Generation</h4>
               </a>
-              <br>
               <strong>Zhaoxi Chen</strong>,
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
               <br>
               <em>TOG</em>, 2022 (Proc. SIGGRAPH Asia)
-              <br>
-              [<a href="projects/text2light/">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2209.09898">Paper</a>]
-							[<a href="https://youtu.be/XDx6tOHigPE">Video</a>]
-              [<a href="https://colab.research.google.com/github/FrozenBurning/Text2Light/blob/master/text2light.ipynb">Colab</a>]
-							[<a href="https://github.com/FrozenBurning/Text2Light">Code</a>]
+              <br><br>
+              <a href="projects/text2light/" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2209.09898" class="button">Paper</a>
+							<a href="https://youtu.be/XDx6tOHigPE" class="button">Video</a>
+              <a href="https://colab.research.google.com/github/FrozenBurning/Text2Light/blob/master/text2light.ipynb" class="button">Colab</a>
+							<a href="https://github.com/FrozenBurning/Text2Light" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/FrozenBurning/Text2Light?style=social">
               <img src="https://img.shields.io/github/forks/FrozenBurning/Text2Light?style=social">
               <p></p>
               <p>Text2Light can generate HDR panoramas in 4K+ resolution using free-form texts, without training on text-image pairs. The high-quality generated HDR panoramas can be directly applied to downstream tasks, e.g., light 3D scenes and immersive virtual reality.</p>
-            </td>
-          </tr>
-          <tr onmouseout="relighting4d_stop()" onmouseover="relighting4d_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='relighting4d_video'><img src="images/relighting.gif" width="200"></div>
-                <img src='images/relighting.jpg' width="200">
-              </div>
-              <script type="text/javascript">
-                function relighting4d_start() {
-                  document.getElementById('relighting4d_video').style.opacity = "1";
-                }
+            </div>
+          </div>
 
-                function relighting4d_stop() {
-                  document.getElementById('relighting4d_video').style.opacity = "0";
-                }
-                relighting4d_stop()
-              </script>
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
+            <a class="col-4" style="margin: auto;">
+              <img src="images/relighting.jpg" alt="relighting4d">
+              <div class="img-overlay"><img src="images/relighting.gif" alt="relighting4d_gif"></div>
+            </a>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="projects/relighting4d">
-                <papertitle>Relighting4D: Neural Relightable Human from Videos</papertitle>
+                <h4>Relighting4D: Neural Relightable Human from Videos</h4>
               </a>
-              <br>
               <strong>Zhaoxi Chen</strong>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
               <br>
               <em>ECCV</em>, 2022
-              <br>
-              [<a href="projects/relighting4d">Project Page</a>]
-							[<a href="https://arxiv.org/abs/2207.07104">Paper</a>]
-							[<a href="https://github.com/FrozenBurning/Relighting4D">Code</a>]
+              <br><br>
+              <a href="projects/relighting4d" class="button">Project Page</a>
+							<a href="https://arxiv.org/abs/2207.07104" class="button">Paper</a>
+							<a href="https://github.com/FrozenBurning/Relighting4D" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/FrozenBurning/Relighting4D?style=social">
               <img src="https://img.shields.io/github/forks/FrozenBurning/Relighting4D?style=social">
               <p></p>
               <p>Relighting4D takes only videos as input, decomposing them into geometry and reflectance in a self-supervised manner, which enables relighting of dynamic humans with free viewpoints by a physically based renderer.</p>
-            </td>
-          </tr>
-          <tr onmouseout="adafocus_stop()" onmouseover="adafocus_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='adafocus_video'><img src="images/adafocus.gif" width="200"></div>
-                <img src='images/adafocus.png' width="200">
-              </div>
-              <script type="text/javascript">
-                function adafocus_start() {
-                  document.getElementById('adafocus_video').style.opacity = "1";
-                }
+            </div>
+          </div>
 
-                function adafocus_stop() {
-                  document.getElementById('adafocus_video').style.opacity = "0";
-                }
-                adafocus_stop()
-              </script>
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
+            <a class="col-4" style="margin: auto;">
+              <img src="images/adafocus.png" alt="adafocus">
+              <div class="img-overlay"><img src="images/adafocus.gif" alt="adafocus_gif"></div>
+            </a>
+            <div class="col-3-4" style="margin: auto;">
 							<a href="https://github.com/blackfeather-wang/AdaFocus">
-                <papertitle>Adaptive Focus for Efficient Video Recognition</papertitle>
+                <h4>Adaptive Focus for Efficient Video Recognition</h4>
               </a>
-              <br>
               <a href="https://www.rainforest-wang.cool/">Yulin Wang<strong>*</strong></a>,
               <strong>Zhaoxi Chen*</strong>,
               <a href="https://github.com/jianghaojun">Haojun Jiang</a>,
@@ -325,28 +401,25 @@
               <a href="https://yizenghan.top/">Yizeng Han</a>,
               <a href="http://www.gaohuang.net/">Gao Huang</a>
               <br>
-              <em>ICCV</em>, 2021 &nbsp <font color="#ff6a5c"><strong>(Oral Presentation)</strong></font>
-              <br>
-							[<a href="https://arxiv.org/abs/2105.03245">Paper</a>]
-							[<a href="https://github.com/blackfeather-wang/AdaFocus">Code</a>]
+              <em>ICCV</em>, 2021 &nbsp <font color="#ff6a5c"><strong>(Oral)</strong></font>
+              <br><br>
+							<a href="https://arxiv.org/abs/2105.03245" class="button">Paper</a>
+							<a href="https://github.com/blackfeather-wang/AdaFocus" class="button">Code</a>
               <img src="https://img.shields.io/github/stars/blackfeather-wang/AdaFocus?style=social">
               <img src="https://img.shields.io/github/forks/blackfeather-wang/AdaFocus?style=social">
               <p></p>
               <p>In this paper, we explore the spatial redundancy in video recognition with the aim to improve the computational efficiency. Extensive experiments on five benchmark datasets, i.e., ActivityNet, FCVID, Mini-Kinetics, Something-Something V1&V2, demonstrate that our method is significantly more efficient than the competitive baselines.</p>
-            </td>
-          </tr>
+            </div>
+          </div>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src="images/ts-adv.jpg" alt="understanding" width="200" style="border-style: none">
-              </div>
-            </td>
-            <td style="padding:10px;width:75%;vertical-align:middle">
+          <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
+            <div class="col-4" style="margin: auto;">
+              <img src='images/ts-adv.jpg' width="100%">
+            </div>
+            <div class="col-3-4" style="margin: auto;">
               <a href="https://arxiv.org/abs/2102.13170">
-                <papertitle>Understanding Robustness in Teacher-Student Setting: A New Perspective</papertitle>
+                <h4>Understanding Robustness in Teacher-Student Setting: A New Perspective</h4>
               </a>
-              <br>
               <a href="https://lucas110550.github.io/about/">Zhuolin Yang<strong>*</strong></a>,
               <strong>Zhaoxi Chen</strong>,
               Tiffany Cai,
@@ -355,93 +428,211 @@
               <a href="https://yuandong-tian.com/">Yuandong Tian<strong>*</strong></a>
               <br>
               <em>AISTATS</em>, 2021
-              <br>
-              [<a href="https://arxiv.org/abs/2102.13170">Paper</a>]
+              <br><br>
+              <a href="https://arxiv.org/abs/2102.13170" class="button">Paper</a>
               <p>In the case of low-rank input data, we show that student specialization still happens within the input subspace, but the teacher and student nodes could differ wildly out of the data subspace, which we conjecture leads to adversarial examples.</p>
-            </td>
-          </tr>
-        </tbody></table>
-        
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Academic Experience</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td width="75%">
-              <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, Nanyang Technological University <br>
-              Ph.D. student supervised by Prof. <a href="https://liuziwei7.github.io">Ziwei Liu</a>
-            </td>
-            <td width="25%">Aug. 2021 - Now</td>
-          </tr>
-          <tr>
-            <td width="75%">
-              <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, Tsinghua University <br>
-              Undergraduate thesis supervised by Prof. <a href="http://www.gaohuang.net/">Gao Huang</a>
-            </td>
-            <td width="25%">Dec. 2020 - Jul. 2021</td>
-          </tr>
-          <tr>
-            <td width="75%">
-              <a href="https://aisecure.github.io/">Secure Learning Lab</a>, University of Illinois at Urbana-Champaign <br>
-              Visiting research intern advised by Prof. <a href="https://aisecure.github.io/">Bo Li</a>
-            </td>
-            <td width="25%">May. 2020 - Oct. 2020</td>
-          </tr>
-          <tr>
-            <td width="75%">
-              <a href="https://www.modlabupenn.org/">GRASP</a>, University of Pennsylvania <br>
-              Intern advised by Prof. <a href="https://www.seas.upenn.edu/directory/profile.php?ID=107">Mark Yim</a>
-            </td>
-            <td width="25%">Jun. 2020 - Sep. 2020</td>
-          </tr>
-        </tbody></table>
+            </div>
+          </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Awards</heading>
-            <p><a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta Research PhD Fellowship</a>, Finalist, 2023</p>
-            <p><a href="https://aisingapore.org/research/aisg-phd-fellowship-programme/">AISG PhD Fellowship</a>, 2021</p>
-          </td>
-        </tr>
-      </tbody></table>
+        </div>
+      </div>
+    </section>
 
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Services</heading>
-          <p>Conference Reviewer: CVPR, ICCV, SIGGRAPH, NeurIPS</p>
-          <p>Journal Reviewer: TOG, IJCV</p>
-        </td>
-      </tr>
-    </tbody></table>
+    <!--Testimonials-->
+    <section id="experiences" class="scrollto">
+      <div class="row clearfix">
 
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading>Misc</heading>
-          <p>I'm a fanatical music lover, with skills in saxophone, piano, and guitar.</p>
-        </td>
-      </tr>
-    </tbody></table>
+        <div class="col-4">
+            <div class="section-heading">
+                <h2 class="section-title">Experiences</h2>
+            </div>
+        </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                <td style="text-align: right;"> Website template credits to <a href="http://jonbarron.info">Jon Barron</a>. </td>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+        <div class="col-3-4 text-center"">
+          <div class="row clearfix" style="padding: 0;">
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+              <!--Icon-->
+              <div class="icon" style="height: 100px;">
+                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                <img src='images/ntu.png' style="position: relative; height: 100%;">
+              </div>
+              <!--Icon Block Description-->
+              <div class="icon-block-description">
+                  <h4>Aug. 2021 - now</h4>
+                  <p>
+                    <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, Nanyang Technological University <br>
+                    Ph.D. student supervised by Prof. <a href="https://liuziwei7.github.io">Ziwei Liu</a>
+                  </p>
+              </div>
+            </div>
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+              <!--Icon-->
+              <div class="icon" style="height: 100px;">
+                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                <img src='images/tsinghua.png' style="position: relative; height: 100%;">
+              </div>
+              <!--Icon Block Description-->
+              <div class="icon-block-description">
+                  <h4>Dec. 2020 - Jul. 2021</h4>
+                  <p>              
+                    <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, Tsinghua University <br>
+                    Undergraduate thesis supervised by Prof. <a href="http://www.gaohuang.net/">Gao Huang</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- row 2 -->
+          <div class="row clearfix" style="padding: 0;">
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+              <!--Icon-->
+              <div class="icon" style="height: 100px;">
+                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                <img src='images/illinois.png' style="position: relative; height: 100%;">
+              </div>
+              <!--Icon Block Description-->
+              <div class="icon-block-description">
+                  <h4>May. 2020 - Oct. 2020</h4>
+                  <p>
+                    <a href="https://aisecure.github.io/">Secure Learning Lab</a>, UIUC<br>
+                    Visiting Research Intern advised by Prof. <a href="https://aisecure.github.io/">Bo Li</a>
+                  </p>
+              </div>
+            </div>
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+              <!--Icon-->
+              <div class="icon" style="height: 100px;">
+                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
+                <img src='images/upenn.png' style="position: relative; height: 100%;">
+              </div>
+              <!--Icon Block Description-->
+              <div class="icon-block-description">
+                  <h4>Jun. 2020 - Sep. 2020</h4>
+                  <p>
+                    <a href="https://www.modlabupenn.org/">ModLab</a>, University of Pennsylvania <br>
+                    Intern advised by Prof. <a href="https://www.seas.upenn.edu/directory/profile.php?ID=107">Mark Yim</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <!--End of Testimonials-->
+
+    <section id="awards" class="scrollto">
+      <div class="row clearfix">
+        <div class="col-4">
+            <div class="section-heading">
+                <h2 class="section-title">Awards</h2>
+            </div>
+        </div>
+        <div class="col-3-4 text-center">
+
+          <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.2s">
+            <!--Icon-->
+            <div class="icon" style="height: 100px;">
+                <!-- <i class="fa fa-html5 fa-2x"></i> -->
+              <img src='images/meta.png' style="position: relative; height: 100%;">
+            </div>
+            <!--Icon Block Description-->
+            <div class="icon-block-description">
+                <h4>2023</h4>
+                <p><a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta Research PhD Fellowship</a>,  Finalist</p>
+            </div>
+          </div>
+          <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.2s">
+            <!--Icon-->
+            <div class="icon" style="height: 100px;">
+                <!-- <i class="fa fa-html5 fa-2x"></i> -->
+              <img src='images/aisg.png' style="position: relative; height: 100%;">
+            </div>
+            <!--Icon Block Description-->
+            <div class="icon-block-description">
+                <h4>2021</h4>
+                <p><a href="https://aisingapore.org/research/aisg-phd-fellowship-programme/">AISG PhD Fellowship</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="scrollto">
+      <div class="row clearfix">
+        <div class="col-4">
+            <div class="section-heading">
+                <h2 class="section-title">Services</h2>
+            </div>
+        </div>
+        <div class="col-3-4 text-center"">
+          <div class="pricing-block col-2 wow fadeInUp" data-wow-delay="0.4s">
+                <h3>Conference Reviewer</h3>
+                <ul>
+                    <li>CVPR 2023</li>
+                    <li>ICCV 2023</li>
+                    <li>SIGGRAPH 2023</li>
+                    <li>NeurIPS 2023</li>
+                </ul>
+          </div>
+          <div class="pricing-block col-2 wow fadeInUp" data-wow-delay="0.4s">
+            <h3>Journal Reviewer</h3>
+            <ul>
+                <li>TOG</li>
+                <li>IJCV</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!--Footer-->
+  <footer id="landing-footer" class="clearfix">
+    <div class="row clearfix">
+        <p id="copyright" class="col-2">Credits to <a href="https://www.shapingrain.com">ShapingRain</a></p>
+        <!--Social Icons in Footer-->
+        <ul class="col-2 social-icons">
+          <li>
+            <a target="_blank" title="Email" href="mailto:zhaoxi001@ntu.edu.sg">
+                <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+            </a>
+          </li>
+          <li>
+              <a target="_blank" title="Google+" href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">
+                  <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+              </a>
+          </li>
+          <li>
+            <a target="_blank" title="Github" href="https://github.com/FrozenBurning/">
+                <i class="fa fa-github fa-1x"></i><span>Github</span>
+            </a>
+          </li>
+          <li>
+              <a target="_blank" title="Twitter" href="https://twitter.com/Frozen_Burning">
+                  <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+              </a>
+          </li>
+        </ul>
+        <!--End of Social Icons in Footer-->
+    </div>
+  </footer>
+  <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
 </body>
-
 </html>
