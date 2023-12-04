@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>URHand</title>
+
+    <meta name="description" content="Project page for URHand: Universal Relightable Hands">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--FACEBOOK-->
+    <meta property="og:image" content="https://frozenburning.github.io/projects/urhand/img/teaser.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="682">
+    <meta property="og:image:height" content="682">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://frozenburning.github.io/projects/urhand"/>
+    <meta property="og:title" content="URHand" />
+    <meta property="og:description" content="Project page for URHand: Universal Relightable Hands" />
+
+        <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="URHand" />
+    <meta name="twitter:description" content="Project page for URHand: Universal Relightable Hands" />
+    <meta name="twitter:image" content="https://frozenburning.github.io/projects/urhand/img/teaser.png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <!-- <link rel="stylesheet" href="css/app.css"> -->
+    <link rel="stylesheet" href="../../stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main" style="width: 100%; max-width: 1500px;">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                <b>URHand</b>: Universal Relightable Hands<br>
+                <small>
+                    arXiv 2023
+                </small>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://frozenburning.github.io">
+                            Zhaoxi Chen<sup>1,2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mks0601.github.io/">
+                            Gyeongsik Moon<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=FfaVfjIAAAAJ&hl=en">
+                            Kaiwen Guo<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/site/zjucaochen/home">
+                            Chen Cao<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=iarSQgQAAAAJ&hl=en">
+                            Stanislav Pidhorskyi<sup>1</sup>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=7aabHgsAAAAJ&hl=en">
+                            Tomas Simon<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rohan-m-joshi/">
+                            Rohan Joshi<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                            Yuan Dong<sup>1</sup>
+                    </li>
+                    <li>
+                            Yichen Xu<sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bernardo-pires-phd">
+                            Bernardo Pires<sup>1</sup>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://www.linkedin.com/in/hewen">
+                            He Wen<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                            Lucas Evans<sup>1</sup>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bo-peng-bb7b2544">
+                            Bo Peng<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/julia-buffalini-424983123">
+                            Julia Buffalini<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/autumntrimble">
+                            Autumn Trimble<sup>1</sup>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kevyn-mcphail-87b63a45">
+                            Kevyn McPhail<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/melissaschoeller">
+                            Melissa Schoeller<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/view/shoou-i-yu/home">
+                            Shoou-I Yu<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=Wx62iOsAAAAJ&hl=en">
+                            Javier Romero<sup>1</sup>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://zollhoefer.com/">
+                            Michael Zollhöfer<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cs.cmu.edu/~yaser/">
+                            Yaser Sheikh<sup>1</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://liuziwei7.github.io">
+                            Ziwei Liu<sup>2 <i class="fa fa-envelope fa-1x"></i></sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://shunsukesaito.github.io/">
+                            Shunsuke Saito<sup>1 <i class="fa fa-envelope fa-1x"></i></sup>
+                        </a>
+                    </li>
+                    </br><br><sup>1</sup>Codec Avatars Lab, Meta &emsp; <sup>2</sup>Nanyang Technological University
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="https://arxiv.org/abs/xxxx.xxxxx">
+                            <image src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtu.be/8lc-G3equIo">
+                            <image src="img/youtube_icon.png" height="60px">
+                                <h4><strong>Video</strong></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+                    <b>URHand</b> (<i>a.k.a</i> Your Hand). Our model is a high-fidelity <b>U</b>niversal prior for <b>R</b>elightable <b>Hand</b>s built upon light-stage data. It generalizes to novel viewpoints, poses, identities, and illuminations, which enables quick personalization from a phone scan.
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/teaser.mp4" type="video/mp4" />
+                </video>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Framework
+                </h3>
+                <p class="text-justify">
+                    Our model takes as input a mean texture, hand pose, and a coarse mesh for each identity. The physical branch focuses on geometry refinement and providing accurate shading features for the neural branch. The core of the neural branch is the <b>linear lighting model</b> which takes as input the physics-inspired shading features from the physical branch. The neural branch learns to predict the gain and bias map over the mean texture. We leverage a differentiable rasterizer for rendering and minimize the loss of both branches against ground truth images. The sg(·) denotes the stop-gradient operation.
+                </p>
+                <p style="text-align:center;">
+                    <image src="img/framework.png" class="img-responsive" alt="scales">
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Rendering with Directional Light
+                </h3>
+                <p class="text-justify">
+                    Physics-inspired refinement and shading features enable high-quality geometry and specularity:
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/seg_olat.mp4" type="video/mp4" />
+                </video>
+                <br><br>
+                <p class="text-justify">
+                    We conduct detailed ablation studies on the effectiveness of the physical shading features and geometry:
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/seg_abl_feature.mp4" type="video/mp4" />
+                </video>
+                <br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Rendering with Environment Map
+                </h3>
+                <p class="text-justify">
+                    The proposed spatially varying linear lighting model achieves generalization to arbitrary illuminations represented by environment maps while training on OLAT sequences only.
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/seg_envmap.mp4" type="video/mp4" />
+                </video>
+                <br><br>
+                <p class="text-justify">
+                    The different designs choices of the linaer lighting model also impact the generalization from OLAT to environment maps:
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/seg_abl_llm.mp4" type="video/mp4" />
+                </video>
+                <br><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Quick Personalization from a Phone Scan
+                </h3>
+                <p class="text-justify">
+                    Our universal relightable prior enables quick adaptation of a relightable personalized hand model from a casual phone scan, which is ready to be photorealistically rendered with arbitrary illuminations:
+                </p>
+                <video id="v0" width="100%" autoplay loop muted controls>
+                    <source src="img/seg_phone.mp4" type="video/mp4" />
+                </video>
+                <br><br>              
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Full Presentation
+                </h3>
+                <div class="text-center">
+                    <div style="position:relative;padding-top:56.25%;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8lc-G3equIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10" style="padding: 0%; margin: 0%;">
+                    <textarea id="bibtex" class="form-control" readonly>
+@inproceedings{chen2023urhand,
+    title={URHand: Universal Relightable Hands},
+    author={Zhaoxi Chen and Gyeongsik Moon and Kaiwen Guo and Chen Cao and Stanislav Pidhorskyi and Tomas Simon and Rohan Joshi and Yuan Dong and Yichen Xu and Bernardo Pires and He Wen and Lucas Evans and Bo Peng and Julia Buffalini and Autumn Trimble and Kevyn McPhail and Melissa Schoeller and Shoou-I Yu and Javier Romero and Michael Zollhöfer and Yaser Sheikh and Ziwei Liu and Shunsuke Saito}
+    booktitle={arXiv},
+    year={2023}
+}</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                The website template is borrowed from <a href="https://jonbarron.info/mipnerf/">Mip-NeRF</a>
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
