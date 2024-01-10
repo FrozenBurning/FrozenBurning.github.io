@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--FACEBOOK-->
-    <meta property="og:image" content="https://frozenburning.github.io/projects/urhand/img/teaser.png">
+    <meta property="og:image" content="https://frozenburning.github.io/projects/urhand/img/teaser-web.jpg">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="682">
     <meta property="og:image:height" content="682">
@@ -25,7 +25,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="URHand" />
     <meta name="twitter:description" content="Project page for URHand: Universal Relightable Hands" />
-    <meta name="twitter:image" content="https://frozenburning.github.io/projects/urhand/img/teaser.png" />
+    <meta name="twitter:image" content="https://frozenburning.github.io/projects/urhand/img/teaser-web.jpg" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -45,9 +45,9 @@
     <div class="container" id="main" style="width: 100%; max-width: 1500px;">
         <div class="row">
             <h1 class="col-md-12 text-center">
-                <b>URHand</b>: Universal Relightable Hands<br>
+                <b style="color: #F9DA78;">U</b><b style="color: #B1D095;">R</b><b>Hand</b>: Universal Relightable Hands<br>
                 <small>
-                    arXiv 2023
+                    arXiv 2024
                 </small>
             </h1>
         </div>
@@ -197,7 +197,7 @@
                     Abstract
                 </h3>
                 <p class="text-justify">
-                    <b>URHand</b> (<i>a.k.a</i> Your Hand). Our model is a high-fidelity <b>U</b>niversal prior for <b>R</b>elightable <b>Hand</b>s built upon light-stage data. It generalizes to novel viewpoints, poses, identities, and illuminations, which enables quick personalization from a phone scan.
+                    <b style="color: #F9DA78;">U</b><b style="color: #B1D095;">R</b><b>Hand</b> (<i>a.k.a</i> <b>Your Hand</b>). Our model is a high-fidelity <b style="color: #F9DA78;">U</b>niversal prior for <b style="color: #B1D095;">R</b>elightable <b>Hand</b>s built upon light-stage data. It generalizes to novel viewpoints, poses, identities, and illuminations, which enables quick personalization from a phone scan.
                 </p>
                 <video id="v0" width="100%" autoplay loop muted controls>
                     <source src="img/teaser.mp4" type="video/mp4" />
@@ -212,7 +212,7 @@
                     Framework
                 </h3>
                 <p class="text-justify">
-                    Our model takes as input a mean texture, hand pose, and a coarse mesh for each identity. The physical branch focuses on geometry refinement and providing accurate shading features for the neural branch. The core of the neural branch is the <b>linear lighting model</b> which takes as input the physics-inspired shading features from the physical branch. The neural branch learns to predict the gain and bias map over the mean texture. We leverage a differentiable rasterizer for rendering and minimize the loss of both branches against ground truth images. The sg(·) denotes the stop-gradient operation.
+                    Our model takes as input a mean texture, hand pose, and a coarse mesh for each identity. The physical branch focuses on geometry refinement and providing accurate shading features for the neural branch. The core of the neural branch is the <b>linear lighting model</b> (LLM) which takes as input the physics-inspired shading features from the physical branch. The neural branch learns to predict the gain and bias map over the mean texture. We leverage a differentiable rasterizer for rendering and minimize the loss of both branches against ground truth images. The sg(·) denotes the stop-gradient operation.
                 </p>
                 <p style="text-align:center;">
                     <image src="img/framework.png" class="img-responsive" alt="scales">
