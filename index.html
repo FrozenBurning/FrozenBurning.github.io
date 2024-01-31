@@ -48,11 +48,11 @@
                 <div id="logo">
 
                     <!--Logo that is shown on the banner-->
-                    <img src="images/thumbnail_me.jpg" id="banner-logo" alt="Landing Page"/>
+                    <div style="font-size: 18px; font-weight: 800;" id="banner-logo" alt="Landing Page">ZHAOXI CHEN</div>
                     <!--End of Banner Logo-->
 
                     <!--The Logo that is shown on the sticky Navigation Bar-->
-                    <img src="images/thumbnail_me.jpg" id="navigation-logo" alt="Landing Page"/>
+                    <div style="font-size: 18px; font-weight: 800;" id="navigation-logo" alt="Landing Page">ZHAOXI CHEN</div>
                     <!--End of Navigation Logo-->
 
                 </div>
@@ -131,11 +131,11 @@
 
             <!--Call to Action-->
             <br>
-            <a href="mailto:zhaoxi001@ntu.edu.sg" class="button"><i class="fa fa-envelope"></i> Email </a>
-            <a href="./data/resume.pdf" class="button"><i class="fa fa-mail-forward"></i> CV </a>
-            <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en" class="button"><i class="fa fa-google-plus"></i> Google Scholar</a>
-            <a href="https://github.com/FrozenBurning/" class="button"><i class="fa fa-github"></i> Github</a>
-            <a href="https://twitter.com/Frozen_Burning" class="button"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="mailto:zhaoxi001@ntu.edu.sg" class="cover-button"><i class="fa fa-envelope"></i> Email </a>
+            <a href="./data/resume.pdf" class="cover-button"><i class="fa fa-mail-forward"></i> CV </a>
+            <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en" class="cover-button"><i class="fa fa-google-plus"></i> Google Scholar</a>
+            <a href="https://github.com/FrozenBurning/" class="cover-button"><i class="fa fa-github"></i> Github</a>
+            <a href="https://twitter.com/Frozen_Burning" class="cover-button"><i class="fa fa-twitter"></i> Twitter</a>
             <!--End Call to Action-->
         </div>
     </div><!--End of Row-->
@@ -153,6 +153,9 @@
           </div>
         </div>
         <div class="col-2-3">
+          <p>
+            [01/2024] One paper accepted to <a href="">IJCV</a>.
+          </p>
           <p>
             [09/2023] One paper accepted to <a href="https://nips.cc/Conferences/2023">NeurIPS 2023</a>.
           </p>
@@ -193,17 +196,22 @@
           <div class="section-heading">
               <h2 class="section-title">Publications</h2>
               <p class="section-subtitle"><strong>*</strong> denotes equal contributions</p>
+              <br>
           </div>
 
           <!-- Paper by paper -->
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/urhand.jpg' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                arXiv - 2024
+              </div>
 							<a href="https://frozenburning.github.io/projects/urhand/">
-                <h4>URHand: Universal Relightable Hands</h4>
+                <div class="card-headline">URHand: Universal Relightable Hands</div>
               </a>
+              <div class="author-list">
               <strong>Zhaoxi Chen</strong>,
                 <a href="https://mks0601.github.io/">
                     Gyeongsik Moon</a>,
@@ -246,24 +254,31 @@
                     Ziwei Liu</a>,
                 <a href="https://shunsukesaito.github.io/">
                     Shunsuke Saito</a>
-              <br>
-              <em>arXiv</em>, 2024
-              <br><br>
+              </div>
               <a href="https://frozenburning.github.io/projects/urhand/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2401.05334" class="button">Paper</a>
 							<a href="https://youtu.be/8lc-G3equIo" class="button">Video</a>
-              <p>URHand (a.k.a Your Hand). Our model is a high-fidelity Universal prior for Relightable Hands built upon light-stage data. It generalizes to novel viewpoints, poses, identities, and illuminations, which enables quick personalization from a phone scan. We propose the spatially varying linear lighting model for scalable relighting training.</p>
+              <br>
+              <div class="card-description">
+                URHand (a.k.a Your Hand). Our model is a high-fidelity Universal prior for Relightable Hands built upon light-stage data. It generalizes to novel viewpoints, poses, identities, and illuminations, which enables quick personalization from a phone scan. We propose the spatially varying linear lighting model for scalable relighting training.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/relitalk.png' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                IJCV - 2024
+              </div>
 							<a href="http://haonanqiu.com/projects/ReliTalk.html">
-                <h4>ReliTalk: Relightable Talking Portrait Generation from a Single Video</h4>
+                <div class="card-headline">
+                  ReliTalk: Relightable Talking Portrait Generation from a Single Video
+                </div>
               </a>
+              <div class="author-list">
               <a href="http://haonanqiu.com/">Haonan Qiu</a>,
               <strong>Zhaoxi Chen</strong>,
               <a href="https://yumingj.github.io/">Yuming Jiang</a>,
@@ -272,101 +287,130 @@
               <a href="https://scholar.google.com.hk/citations?user=jZH2IPYAAAAJ&hl=en">Lei Yang</a>,
               <a href="https://wywu.github.io/">Wayne Wu</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>IJCV</em>, 2024
-              <br><br>
+              </div>
               <a href="http://haonanqiu.com/projects/ReliTalk.html" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2309.02434" class="button">Paper</a>
 							<a href="https://www.youtube.com/watch?v=tS2Tek_72J0" class="button">Video</a>
 							<a href="https://github.com/arthur-qiu/ReliTalk" class="button">Code</a>
-              <p>Relight and drive a portrait with a single training clip!</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/arthur-qiu/ReliTalk?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/arthur-qiu/ReliTalk?style=social">
+              <br>
+              <div class="card-description">
+                Relight and drive a portrait with a single training clip!
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/primdiffusion_small.gif' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                NeurIPS - 2023
+              </div>
 							<a href="https://frozenburning.github.io/projects/primdiffusion/">
-                <h4>PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation</h4>
+                <div class="card-headline">
+                  PrimDiffusion: Volumetric Primitives Diffusion for 3D Human Generation
+                </div>
               </a>
+              <div class="author-list">
               <strong>Zhaoxi Chen</strong>,
               <a href="https://hongfz16.github.io/">Fangzhou Hong</a>,
               <a href="https://scholar.google.com/citations?user=TOZ9wR4AAAAJ&hl=en">Haiyi Mei</a>,
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <a href="https://scholar.google.com.hk/citations?user=jZH2IPYAAAAJ&hl=en">Lei Yang</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>NeurIPS</em>, 2023
-              <br><br>
+              </div>
               <a href="https://frozenburning.github.io/projects/primdiffusion/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2312.04559" class="button">Paper</a>
 							<a href="https://youtu.be/zprHGZ7Gm7A" class="button">Video</a>
 							<a href="https://github.com/FrozenBurning/PrimDiffusion" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/FrozenBurning/PrimDiffusion?style=social">
-              <img src="https://img.shields.io/github/forks/FrozenBurning/PrimDiffusion?style=social">
-              <p>PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/FrozenBurning/PrimDiffusion?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/FrozenBurning/PrimDiffusion?style=social">
+              <br>
+              <div class="card-description">
+                PrimDiffusion performs the diffusion and denoising process on a set of primitives which compactly represent 3D humans. This generative modeling has explicit pose, view, and shape control, with the capability of modeling off-body topology in well-defined depth. It enables downstream tasks like 3D texture transfer and inpainting.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/scenedreamer_small.gif' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                TPAMI - 2023
+              </div>
 							<a href="https://scene-dreamer.github.io/">
-                <h4>SceneDreamer: Unbounded 3D Scene Generation from 2D Image Collections</h4>
+                <div class="card-headline">
+                  SceneDreamer: Unbounded 3D Scene Generation from 2D Image Collections
+                </div>
               </a>
+              <div class="author-list">
               <strong>Zhaoxi Chen</strong>,
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>TPAMI</em>, 2023
-              <br><br>
+              </div>
               <a href="https://scene-dreamer.github.io/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2302.01330" class="button">Paper</a>
 							<a href="https://youtu.be/nEfSKL2_FoA" class="button">Video</a>
 							<a href="https://github.com/FrozenBurning/SceneDreamer" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/FrozenBurning/SceneDreamer?style=social">
-              <img src="https://img.shields.io/github/forks/FrozenBurning/SceneDreamer?style=social">
-              <p>SceneDreamer learns to generate unbounded 3D scenes from in-the-wild 2D image collections. Our method can synthesize diverse landscapes across different styles, with 3D consistency, well-defined depth, and free camera trajectory.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/FrozenBurning/SceneDreamer?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/FrozenBurning/SceneDreamer?style=social">
+              <br>
+              <div class="card-description">
+                SceneDreamer learns to generate unbounded 3D scenes from in-the-wild 2D image collections. Our method can synthesize diverse landscapes across different styles, with 3D consistency, well-defined depth, and free camera trajectory.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/sparsenerf_small.gif' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                ICCV - 2023
+              </div>
 							<a href="https://sparsenerf.github.io/">
-                <h4>SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis</h4>
+                <div class="card-headline">
+                  SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <strong>Zhaoxi Chen</strong>,
               <a href="https://www.mmlab-ntu.com/person/ccloy/index.html">Chen Change Loy</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>ICCV</em>, 2023
-              <br><br>
+              </div>
               <a href="https://sparsenerf.github.io/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2303.16196" class="button">Paper</a>
 							<a href="https://youtu.be/V0yCTakA964" class="button">Video</a>
 							<a href="https://github.com/Wanggcong/SparseNeRF" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/Wanggcong/SparseNeRF?style=social">
-              <img src="https://img.shields.io/github/forks/Wanggcong/SparseNeRF?style=social">
-              <p>SparseNeRF is a simple yet effective few-shot NeRF by distilling robust local depth ranking priors from real-world inaccurate depth observations.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/Wanggcong/SparseNeRF?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/Wanggcong/SparseNeRF?style=social">
+              <div class="card-description">
+                SparseNeRF is a simple yet effective few-shot NeRF by distilling robust local depth ranking priors from real-world inaccurate depth observations.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.2s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/synbody_small.png' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                ICCV - 2023
+              </div>
 							<a href="https://maoxie.github.io/SynBody/#/">
-                <h4>SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling</h4>
+                <div class="card-headline">
+                  SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://github.com/Maoxie">Zhitao Yang<strong>*</strong></a>,
               <a href="https://caizhongang.github.io/">Zhongang Cai<strong>*</strong></a>,
               <a href="https://scholar.google.com/citations?user=TOZ9wR4AAAAJ&hl=en">Haiyi Mei<strong>*</strong></a>,
@@ -382,24 +426,31 @@
               <a href="http://dahua.site/">Dahua Lin</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
               <a href="http://yanglei.me/">Lei Yang</a>
-              <br>
-              <em>ICCV</em>, 2023
-              <br><br>
+              </div>
               <a href="https://maoxie.github.io/SynBody/#/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2303.17368" class="button">Paper</a>
 							<a href="https://www.youtube.com/watch?v=ogXpRB9zR9A" class="button">Video</a>
-              <p>SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations. It supports various research topics, including 3D human perception, reconstruction and generation.</p>
+              <br>
+              <div class="card-description">
+                SynBody is a large-scale synthetic dataset with massive number of subjects and high-quality annotations. It supports various research topics, including 3D human perception, reconstruction and generation.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/f2nerf.png' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                <font color="#ff6a5c">HIGHLIGHT</font> &nbsp CVPR - 2023
+              </div>
 							<a href="https://totoro97.github.io/projects/f2-nerf/">
-                <h4>F2-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories</h4>
+                <div class="card-headline">
+                  F2-NeRF: Fast Neural Radiance Field Training with Free Camera Trajectories
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://nearlyemptystring.com/about">Peng Wang*</a>,
               <a href="https://liuyuan-pal.github.io/">Yuan Liu*</a>,
               <strong>Zhaoxi Chen</strong>,
@@ -408,143 +459,170 @@
               <a href="https://www.cs.hku.hk/index.php/people/academic-staff/taku">Taku Komura</a>,
               <a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a>,
               <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>
-              <br>
-              <em>CVPR</em>, 2023 &nbsp <font color="#ff6a5c"><strong>(Highlight)</strong></font>
-              <br><br>
+              </div>
               <a href="https://totoro97.github.io/projects/f2-nerf/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2303.15951" class="button">Paper</a>
 							<a href="https://github.com/totoro97/f2-nerf" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/totoro97/f2-nerf?style=social">
-              <img src="https://img.shields.io/github/forks/totoro97/f2-nerf?style=social">
-              <p></p>
-              <p>F2-NeRF enables arbitrary input camera trajectories for novel view synthesis and only costs a few minutes for training.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/totoro97/f2-nerf?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/totoro97/f2-nerf?style=social">
+              <br>
+              <div class="card-description">
+                F2-NeRF enables arbitrary input camera trajectories for novel view synthesis and only costs a few minutes for training.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/eva3d_small.gif' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                <font color="#ff6a5c">SPOTLIGHT</font> &nbsp ICLR - 2023
+              </div>
 							<a href="https://hongfz16.github.io/projects/EVA3D.html">
-                <h4>EVA3D: Compositional 3D Human Generation from 2D Image Collections</h4>
+                <div class="card-headline">
+                  EVA3D: Compositional 3D Human Generation from 2D Image Collections
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://hongfz16.github.io/">Fangzhou Hong</a>,
               <strong>Zhaoxi Chen</strong>,
               <a href="https://github.com/NIRVANALAN">Yushi Lan</a>,
               <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN">Liang Pan</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>ICLR</em>, 2023 &nbsp <font color="#ff6a5c"><strong>(Spotlight)</strong></font>
-              <br><br>
+              </div>
               <a href="https://hongfz16.github.io/projects/EVA3D.html" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2210.04888" class="button">Paper</a>
 							<a href="https://www.youtube.com/watch?v=JNV0FJ0aDWM" class="button">Video</a>
 							<a href="https://github.com/hongfz16/EVA3D" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/hongfz16/EVA3D?style=social">
-              <img src="https://img.shields.io/github/forks/hongfz16/EVA3D?style=social">
-              <p></p>
-              <p>EVA3D is a high-quality unconditional 3D human generative model that only requires 2D image collections for training.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/hongfz16/EVA3D?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/hongfz16/EVA3D?style=social">
+              <br>
+              <div class="card-description">
+                EVA3D is a high-quality unconditional 3D human generative model that only requires 2D image collections for training.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <a class="col-4" style="margin: auto;">
-              <img src="images/text2light.jpg" alt="text2light">
-              <div class="img-overlay"><img src="images/text2light_small.gif" alt="text2light_gif"></div>
-            </a>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
+              <img src="images/text2light_small.gif" alt="text2light" width="100%">
+            </div>
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                SIGGRAPH Asia (TOG) - 2022
+              </div>
 							<a href="projects/text2light/">
-                <h4>Text2Light: Zero-Shot Text-Driven HDR Panorama Generation</h4>
+                <div class="card-headline">
+                  Text2Light: Zero-Shot Text-Driven HDR Panorama Generation
+                </div>
               </a>
+              <div class="author-list">
               <strong>Zhaoxi Chen</strong>,
               <a href="https://wanggcong.github.io/">Guangcong Wang</a>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>TOG</em>, 2022 (Proc. SIGGRAPH Asia)
-              <br><br>
+              </div>
               <a href="projects/text2light/" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2209.09898" class="button">Paper</a>
 							<a href="https://youtu.be/XDx6tOHigPE" class="button">Video</a>
-              <a href="https://colab.research.google.com/github/FrozenBurning/Text2Light/blob/master/text2light.ipynb" class="button">Colab</a>
 							<a href="https://github.com/FrozenBurning/Text2Light" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/FrozenBurning/Text2Light?style=social">
-              <img src="https://img.shields.io/github/forks/FrozenBurning/Text2Light?style=social">
-              <p></p>
-              <p>Text2Light can generate HDR panoramas in 4K+ resolution using free-form texts, without training on text-image pairs. The high-quality generated HDR panoramas can be directly applied to downstream tasks, e.g., light 3D scenes and immersive virtual reality.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/FrozenBurning/Text2Light?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/FrozenBurning/Text2Light?style=social">
+              <br>
+              <div class="card-description">
+                Text2Light can generate HDR panoramas in 4K+ resolution using free-form texts, without training on text-image pairs. The high-quality generated HDR panoramas can be directly applied to downstream tasks, e.g., light 3D scenes and immersive virtual reality.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <a class="col-4" style="margin: auto;">
-              <img src="images/relighting.jpg" alt="relighting4d">
-              <div class="img-overlay"><img src="images/relighting_small.gif" alt="relighting4d_gif"></div>
-            </a>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
+              <img src="images/relighting_small.gif" alt="relighting4d" width="100%">
+            </div>
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                ECCV - 2022
+              </div>
 							<a href="projects/relighting4d">
-                <h4>Relighting4D: Neural Relightable Human from Videos</h4>
+                <div class="card-headline">
+                  Relighting4D: Neural Relightable Human from Videos
+                </div>
               </a>
+              <div class="author-list">
               <strong>Zhaoxi Chen</strong>,
               <a href="https://liuziwei7.github.io/">Ziwei Liu</a>
-              <br>
-              <em>ECCV</em>, 2022
-              <br><br>
+              </div>
               <a href="projects/relighting4d" class="button">Project Page</a>
 							<a href="https://arxiv.org/abs/2207.07104" class="button">Paper</a>
 							<a href="https://github.com/FrozenBurning/Relighting4D" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/FrozenBurning/Relighting4D?style=social">
-              <img src="https://img.shields.io/github/forks/FrozenBurning/Relighting4D?style=social">
-              <p></p>
-              <p>Relighting4D takes only videos as input, decomposing them into geometry and reflectance in a self-supervised manner, which enables relighting of dynamic humans with free viewpoints by a physically based renderer.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/FrozenBurning/Relighting4D?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/FrozenBurning/Relighting4D?style=social">
+              <br>
+              <div class="card-description">
+                Relighting4D takes only videos as input, decomposing them into geometry and reflectance in a self-supervised manner, which enables relighting of dynamic humans with free viewpoints by a physically based renderer.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.1s">
-            <a class="col-4" style="margin: auto;">
-              <img src="images/adafocus_small.png" alt="adafocus">
-              <div class="img-overlay"><img src="images/adafocus_small.gif" alt="adafocus_gif"></div>
-            </a>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
+              <img src="images/adafocus_small.gif" alt="adafocus" width="100%">
+            </div>
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                <font color="#ff6a5c">Oral</font> &nbsp ICCV - 2021
+              </div>
 							<a href="https://github.com/blackfeather-wang/AdaFocus">
-                <h4>Adaptive Focus for Efficient Video Recognition</h4>
+                <div class="card-headline">
+                  Adaptive Focus for Efficient Video Recognition
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://www.rainforest-wang.cool/">Yulin Wang<strong>*</strong></a>,
               <strong>Zhaoxi Chen*</strong>,
               <a href="https://github.com/jianghaojun">Haojun Jiang</a>,
               <a href="https://scholar.google.com/citations?user=rw6vWdcAAAAJ&hl=en">Shiji Song</a>,
               <a href="https://yizenghan.top/">Yizeng Han</a>,
               <a href="http://www.gaohuang.net/">Gao Huang</a>
-              <br>
-              <em>ICCV</em>, 2021 &nbsp <font color="#ff6a5c"><strong>(Oral)</strong></font>
-              <br><br>
+              </div>
 							<a href="https://arxiv.org/abs/2105.03245" class="button">Paper</a>
 							<a href="https://github.com/blackfeather-wang/AdaFocus" class="button">Code</a>
-              <img src="https://img.shields.io/github/stars/blackfeather-wang/AdaFocus?style=social">
-              <img src="https://img.shields.io/github/forks/blackfeather-wang/AdaFocus?style=social">
-              <p></p>
-              <p>In this paper, we explore the spatial redundancy in video recognition with the aim to improve the computational efficiency. Extensive experiments on five benchmark datasets, i.e., ActivityNet, FCVID, Mini-Kinetics, Something-Something V1&V2, demonstrate that our method is significantly more efficient than the competitive baselines.</p>
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/stars/blackfeather-wang/AdaFocus?style=social">
+              <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/blackfeather-wang/AdaFocus?style=social">
+              <br>
+              <div class="card-description">
+                In this paper, we explore the spatial redundancy in video recognition with the aim to improve the computational efficiency. Extensive experiments on five benchmark datasets, i.e., ActivityNet, FCVID, Mini-Kinetics, Something-Something V1&V2, demonstrate that our method is significantly more efficient than the competitive baselines.
+              </div>
             </div>
           </div>
 
           <div class="row clearfix wow fadeInUp" style="padding: 0%; display: flex;" data-enllax-ratio=".2" data-wow-delay="0.3s">
-            <div class="col-4" style="margin: auto;">
+            <div class="col-4 fig-headline">
               <img src='images/ts-adv.jpg' width="100%">
             </div>
-            <div class="col-3-4" style="margin: auto;">
+            <div class="col-3-4 headline-clearfix">
+              <div class="card-source">
+                AISTATS - 2021
+              </div>
               <a href="https://arxiv.org/abs/2102.13170">
-                <h4>Understanding Robustness in Teacher-Student Setting: A New Perspective</h4>
+                <div class="card-headline">
+                  Understanding Robustness in Teacher-Student Setting: A New Perspective
+                </div>
               </a>
+              <div class="author-list">
               <a href="https://lucas110550.github.io/about/">Zhuolin Yang<strong>*</strong></a>,
               <strong>Zhaoxi Chen</strong>,
               Tiffany Cai,
               <a href="https://jungyhuk.github.io/">Xinyun Chen</a>,
               <a href="https://aisecure.github.io/">Bo Li</a>,
               <a href="https://yuandong-tian.com/">Yuandong Tian<strong>*</strong></a>
-              <br>
-              <em>AISTATS</em>, 2021
-              <br><br>
+              </div>
               <a href="https://arxiv.org/abs/2102.13170" class="button">Paper</a>
-              <p>In the case of low-rank input data, we show that student specialization still happens within the input subspace, but the teacher and student nodes could differ wildly out of the data subspace, which we conjecture leads to adversarial examples.</p>
+              <br>
+              <div class="card-description">
+                In the case of low-rank input data, we show that student specialization still happens within the input subspace, but the teacher and student nodes could differ wildly out of the data subspace, which we conjecture leads to adversarial examples.
+              </div>
             </div>
           </div>
 

@@ -22,7 +22,7 @@ body {
 /* Default Link Color */
 
 a, .la-ball-triangle-path {
-    color:#1f18c0;
+    color:#4B55AF;
 }
 
 a:hover, #header.nav-solid nav a:hover {
@@ -32,17 +32,17 @@ a:hover, #header.nav-solid nav a:hover {
 /* Default Icon Color */
 
 .icon i {
-    color:#1f18c0;
+    color:#4B55AF;
 }
 
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #1f18c0;
+    background: #4B55AF;
 }
 
 .pricing-block-content:hover {
-    border-color:#1f18c0;
+    border-color:#4B55AF;
 }
 
 
@@ -68,8 +68,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #1f18c0;
-    border-color: #1f18c0;
+    color: #4B55AF;
+    border-color: #4B55AF;
 }    
 
 
