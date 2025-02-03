@@ -51,6 +51,7 @@ body {
 
 p {
     line-height: 25px;
+    margin: 10px;
 }
 
 .row img {
@@ -278,8 +279,138 @@ section {
 }
 
 .author-list {
-    letter-spacing: 0.5px; 
+    letter-spacing: 0.3px; 
     margin-bottom: 14px;
+}
+
+.collapse-content {
+    max-height: 450px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.collapse-content.expanded {
+    max-height: 1500px; 
+}
+
+.read-more-button {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #4b55af;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
+
+.vertical-icons-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.vertical-icon-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.icon-img-container {
+    flex: 0 100 120px;
+    padding: auto 20px;
+}
+
+.icon-img-container img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.icon-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.icon-content p{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon-content h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.timeline-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.timeline-date {
+    flex: 0 0 220px;
+    margin: 0;
+    padding-right: 15px;
+    border-right: 2px solid #ddd;
+}
+
+.timeline-desc {
+    flex: 1;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .timeline-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .timeline-date {
+        flex: none;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+    }
+
+    .vertical-icon-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon-img-container {
+        margin-bottom: 15px;
+    }
+
+    .icon-content {
+        padding-left: 0;
+    }
+
+    .icon-content h4 {
+        font-size: 1.1rem;
+    }
+
+    .icon-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .vertical-icons-container {
+        padding: 10px;
+    }
+    
+    .vertical-icon-item {
+        margin-bottom: 30px;
+        padding: 15px;
+    }
 }
 
 /* Main Widths */
@@ -2229,6 +2360,7 @@ blockquote {
 
     .row {
         padding: 15px !important;
+        flex-direction: column;
     }
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38, .row {
@@ -2236,10 +2368,33 @@ blockquote {
     }
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38 {
-        padding-right: 0;
+        padding-right: 10px;
         padding-left: 0;
     }
 
+    .card-headline {
+        font-size: 16px;
+    }
+
+    .author-list {
+        font-size: 12px;
+    }
+
+    .card-description {
+        font-size: 12px;
+    }
+
+
+    .fig-headline img{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .clearfix {
+        margin-bottom: 10px;
+    }
+    
     /*-----------------Header Elements-----------------*/
     #header .row {
         padding: 0 15px !important;
@@ -2331,6 +2486,29 @@ blockquote {
 
     .col-3, .col-4, .col-6, .col-8, .col-10, .col-12 {
         width: 50%;
+    }
+
+    .card-headline {
+        font-size: 16px;
+    }
+
+    .author-list {
+        font-size: 12px;
+    }
+
+    .card-description {
+        font-size: 12px;
+    }
+
+
+    .fig-headline img{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .clearfix {
+        margin-bottom: 10px;
     }
 
     /*-----------------Header Elements-----------------*/

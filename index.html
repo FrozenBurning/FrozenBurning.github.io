@@ -68,7 +68,7 @@
                       </li>
                       <li>
                           <a target="_blank" title="Google+" href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">
-                              <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                              <i class="fa fa-graduation-cap fa-1x"></i><span>Google+</span>
                           </a>
                       </li>
                       <li>
@@ -133,7 +133,7 @@
             <br>
             <a href="mailto:zhaoxi001@ntu.edu.sg" class="cover-button"><i class="fa fa-envelope"></i> Email </a>
             <a href="./data/resume.pdf" class="cover-button"><i class="fa fa-mail-forward"></i> CV </a>
-            <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en" class="cover-button"><i class="fa fa-google-plus"></i> Google Scholar</a>
+            <a href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en" class="cover-button"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
             <a href="https://github.com/FrozenBurning/" class="cover-button"><i class="fa fa-github"></i> Github</a>
             <a href="https://twitter.com/Frozen_Burning" class="cover-button"><i class="fa fa-twitter"></i> Twitter</a>
             <!--End Call to Action-->
@@ -142,7 +142,7 @@
   </header>
 
   <main id="content">
-
+  
     <!-- News -->
     <section id="news" class="introduction scrollto">
       <div class="row clearfix">
@@ -153,8 +153,21 @@
           </div>
         </div>
         <div class="col-2-3">
+          <div id="expandableText" class="row collapse-content">
           <p>
-            [07/2024] One paper accepted to <a href="https://eccv2024.ecva.net/">ECCV 2024</a>.
+            [01/2025] Invited Talk at <a href="https://air.tsinghua.edu.cn/en/index.htm">AIR Tsinghua</a> on "Towards General Neural 3D Asset Generation".
+          </p>
+          <p>
+            [10/2024] Invited Talk at <a href="https://www.wisemodel.cn/home">WiseModel</a> on <a href="https://3dtopia.github.io/3DTopia-XL/">"Native 3D Generative Models"</a>.
+          </p>
+          <p>
+            [08/2024] Invited Talk at <a href="https://svl.stanford.edu/">Stanford SVL</a> on "From 3D Generative Models to Dynamic Embodied Learning".
+          </p>
+          <p>
+            [07/2024] Invited Talk at <a href="https://games-cn.org/games-webinar-20240718-332/">GAMES Webinar</a> on <a href="https://www.bilibili.com/video/BV1Ez421i7c2/">"Unbounded 3D Scene Generation"</a>.
+          </p>
+          <p>
+            [07/2024] One paper accepted to <a href="https://eccv2024.ecva.net/">ECCV 2024</a> as <font color="#ff6a5c"><strong>Oral</strong></font> presentation.
           </p>
           <p>
             [04/2024] One paper accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE TPAMI</a>.
@@ -163,10 +176,16 @@
             [03/2024] Two papers accepted to <a href="https://cvpr.thecvf.com/Conferences/2024">CVPR 2024</a> with <a href="https://frozenburning.github.io/projects/urhand/"> URHand</a> as <font color="#ff6a5c"><strong>Oral</strong></font> presentation.
           </p>
           <p>
+            [01/2024] Invited Talk at <a href="https://www.bilibili.com/video/BV1Li4y1s7sB/">ReadPaper</a> on Primitive Diffusion.
+          </p>
+          <p>
             [01/2024] One paper accepted to <a href="">IJCV</a>.
           </p>
           <p>
             [09/2023] One paper accepted to <a href="https://nips.cc/Conferences/2023">NeurIPS 2023</a>.
+          </p>
+          <p>
+            [09/2023] Invited Talk at <a href="https://www.shenlanxueyuan.com/open/course/198">DeepBlue AI</a> on Unbounded 3D Scene Generation.
           </p>
           <p>
             [09/2023] One paper accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE TPAMI</a>.
@@ -175,7 +194,7 @@
             [07/2023] Two papers accepted to <a href="https://iccv2023.thecvf.com/">ICCV 2023</a>.
           </p>
           <p>
-            [04/2023] Selected as a Finalist of <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">2023 Meta Research PhD Fellowship</a>!
+            [04/2023] Selected as <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">2023 Meta Research PhD Fellowship</a> Finalist!
           </p>
           <p>
             [02/2023] One paper accepted to <a href="https://cvpr2023.thecvf.com/">CVPR 2023</a> as <font color="#ff6a5c"><strong>Highlight</strong></font>.
@@ -196,11 +215,15 @@
             [07/2021] One paper accepted to <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a> for <font color="#ff6a5c"><strong>Oral</strong></font> presentation.
           </p>
         </div>
+        <div class="row" style="padding: 0; text-align: start;">
+          <button id="toggleButton" class="read-more-button">More</button>
+        </div>
+        </div>
       </div>
     </section>
 
-    <section id="publications" class="scrollto clearfix">
-      <div class="row clearfix">
+    <section id="publications" class="scrollto clearfix" style="margin-bottom: 0px;">
+      <div class="row">
         <div class="col-1">
           <div class="section-heading">
               <h2 class="section-title">Publications</h2>
@@ -447,7 +470,7 @@
               <img style="margin-right: 8px; height: 24.18px;" src="https://img.shields.io/github/forks/arthur-qiu/ReliTalk?style=social">
               <br>
               <div class="card-description">
-                Relight and drive a portrait with a single training clip!
+                Relight and drive a portrait with a single video clip!
               </div>
             </div>
           </div>
@@ -791,89 +814,81 @@
             </div>
         </div>
 
-        <div class="col-3-4 text-center"">
-          <div class="row clearfix" style="padding: 0;">
-            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/ntu.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>Aug. 2021 - now</h4>
-                  <p>
-                    <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, Nanyang Technological University <br>
-                    Ph.D. student supervised by Prof. <a href="https://liuziwei7.github.io">Ziwei Liu</a>
-                  </p>
-              </div>
+        <div class="vertical-icons-container col-3-4 text-center">
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="icon-img-container">
+              <img src="images/ntu.png" alt="NTU">
             </div>
-            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/tsinghua.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>Dec. 2020 - Jul. 2021</h4>
-                  <p>              
-                    <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, Tsinghua University <br>
-                    Undergraduate thesis supervised by Prof. <a href="http://www.gaohuang.net/">Gao Huang</a>
-                  </p>
-              </div>
-            </div>
-          </div>
-          
-          <!-- row 2 -->
-          <div class="row clearfix" style="padding: 0;">
-            <div class="col-3 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/meta.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>Jun. 2023 - Sep. 2023</h4>
-                  <p>
-                    <a href="https://about.meta.com/realitylabs/">Reality Labs</a>, Meta<br>
-                    Research Scientist Intern worked with <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>
-                  </p>
-              </div>
-            </div>
-            <div class="col-3 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/illinois.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>May. 2020 - Oct. 2020</h4>
-                  <p>
-                    <a href="https://aisecure.github.io/">Secure Learning Lab</a>, UIUC<br>
-                    Visiting Research Intern advised by Prof. <a href="https://aisecure.github.io/">Bo Li</a>
-                  </p>
-              </div>
-            </div>
-            <div class="col-3 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/upenn.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>Jun. 2020 - Sep. 2020</h4>
-                  <p>
-                    <a href="https://www.modlabupenn.org/">ModLab</a>, University of Pennsylvania <br>
-                    Intern advised by Prof. <a href="https://www.seas.upenn.edu/directory/profile.php?ID=107">Mark Yim</a>
-                  </p>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">Aug. 2021 - now</h4>
+                <p class="timeline-desc">
+                  <a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>, Nanyang Technological University <br>
+                  Ph.D. student supervised by Prof. <a href="https://liuziwei7.github.io">Ziwei Liu</a>
+                </p>
               </div>
             </div>
           </div>
 
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-img-container">
+              <img src="images/tsinghua.png" alt="Tsinghua">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">Aug. 2017 - Jul. 2021</h4>
+                <p class="timeline-desc">
+                  <a href="https://www.bnrist.tsinghua.edu.cn/bnristen/">BNRist</a>, Tsinghua University <br>
+                  Undergraduate supervised by Prof. <a href="http://www.gaohuang.net/">Gao Huang</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-img-container">
+              <img src="images/meta.png" alt="Meta">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">Jun. 2023 - Sep. 2023</h4>
+                <p class="timeline-desc">
+                  <a href="https://about.meta.com/realitylabs/">Reality Labs</a>, Meta<br>
+                  Research Scientist Intern worked with <a href="https://shunsukesaito.github.io/">Shunsuke Saito</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-img-container">
+              <img src="images/illinois.png" alt="UIUC">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">May. 2020 - Oct. 2020</h4>
+                <p class="timeline-desc">
+                  <a href="https://aisecure.github.io/">Secure Learning Lab</a>, UIUC<br>
+                  Visiting Research Intern advised by Prof. <a href="https://aisecure.github.io/">Bo Li</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.3s">
+            <div class="icon-img-container">
+              <img src="images/upenn.png" alt="UPenn">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">Jun. 2020 - Sep. 2020</h4>
+                <p class="timeline-desc">
+                  <a href="https://www.modlabupenn.org/">ModLab</a>, University of Pennsylvania <br>
+                  Intern advised by Prof. <a href="https://www.seas.upenn.edu/directory/profile.php?ID=107">Mark Yim</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -886,43 +901,45 @@
                 <h2 class="section-title">Awards</h2>
             </div>
         </div>
-        <div class="col-3-4 text-center">
-          <div class="row clearfix">
-            <div class="col-1 icon-block icon-top wow fadeInUp" data-wow-delay="0.2s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                <img src='images/iccv2023.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>2023</h4>
-                  <p><a href="https://twitter.com/ICCVConference/status/1707400996228378992">ICCV 2023 Outstanding Reviewer</a></p>
+        <div class="vertical-icons-container col-3-4 text-center">
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="icon-img-container">
+              <img src="images/iccv2023.png">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">2023</h4>
+                <p class="timeline-desc">
+                  <a href="https://twitter.com/ICCVConference/status/1707400996228378992">ICCV 2023 Outstanding Reviewer</a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="row clearfix">
-            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.2s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/meta.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>2023</h4>
-                  <p><a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta Research PhD Fellowship</a>,  Finalist</p>
+
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-img-container">
+              <img src="images/meta.png">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">2023</h4>
+                <p class="timeline-desc">
+                  <a href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/">Meta Research PhD Fellowship</a>,  Finalist
+                </p>
               </div>
             </div>
-            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.2s">
-              <!--Icon-->
-              <div class="icon" style="height: 100px;">
-                  <!-- <i class="fa fa-html5 fa-2x"></i> -->
-                <img src='images/aisg.png' style="position: relative; height: 100%;">
-              </div>
-              <!--Icon Block Description-->
-              <div class="icon-block-description">
-                  <h4>2021</h4>
-                  <p><a href="https://aisingapore.org/research/aisg-phd-fellowship-programme/">AISG PhD Fellowship</a></p>
+          </div>
+
+          <div class="vertical-icon-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-img-container">
+              <img src="images/aisg.png">
+            </div>
+            <div class="icon-content">
+              <div class="timeline-row">
+                <h4 class="timeline-date">2021</h4>
+                <p class="timeline-desc">
+                  <a href="https://aisingapore.org/research/aisg-phd-fellowship-programme/">AISG PhD Fellowship</a>
+                </p>
               </div>
             </div>
           </div>
@@ -941,13 +958,13 @@
           <div class="pricing-block col-2 wow fadeInUp" data-wow-delay="0.4s">
                 <h3>Conference Reviewer</h3>
                 <ul>
-                    <li>CVPR 2023, 2024</li>
+                    <li>CVPR 2023, 2024, 2025</li>
                     <li>ICCV 2023</li>
                     <li>SIGGRAPH 2023, 2024</li>
                     <li>SIGGRAPH Asia 2024</li>
-                    <li>NeurIPS 2023</li>
+                    <li>NeurIPS 2023, 2024</li>
                     <li>ICLR 2024, 2025</li>
-                    <li>ICML 2024</li>
+                    <li>ICML 2024, 2025</li>
                     <li>ECCV 2024</li>
                 </ul>
           </div>
@@ -979,7 +996,7 @@
           </li>
           <li>
               <a target="_blank" title="Google+" href="https://scholar.google.com/citations?user=HsV0WbwAAAAJ&hl=en">
-                  <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                  <i class="fa fa-graduation-cap fa-1x"></i><span>Google+</span>
               </a>
           </li>
           <li>
@@ -1013,6 +1030,21 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
+<script>
+  const toggleButton = document.getElementById('toggleButton');
+  const expandableText = document.getElementById('expandableText');
+
+  toggleButton.addEventListener('click', function() {
+    // 切换 expanded 类，实现折叠/展开
+    expandableText.classList.toggle('expanded');
+    // 根据状态改变按钮文字
+    if(expandableText.classList.contains('expanded')){
+      toggleButton.textContent = 'Less';
+    } else {
+      toggleButton.textContent = 'More';
+    }
+  });
+</script>
 
 </body>
 </html>
